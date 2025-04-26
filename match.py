@@ -42,4 +42,3 @@ if st.button("🔍 Predict Result"):
     prediction = model.predict(input_data)[0]
     result = "🏆 Win" if prediction == 1 else "❌ Loss"
     st.success(f"🔮 Predicted Result: {result}")
-
